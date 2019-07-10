@@ -10,7 +10,7 @@ node{
    }
    stage('Deploy')
    {
-    sh 'scp  /var/lib/jenkins/workspace/project3terra/target/OurBank.war ubuntu@ec2-13-233-91-59.ap-south-1.compute.amazonaws.com:/opt/tomcat/webapps'
+    sh 'scp  /var/lib/jenkins/workspace/project3terra/target/OurBank.war ubuntu@ec2-52-66-245-58.ap-south-1.compute.amazonaws.com:/opt/tomcat/webapps'
 
    }
    
